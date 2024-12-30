@@ -11,10 +11,10 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.geode.launcher"
+        applicationId = "com.geode.launcher-xps"
         minSdk = 26
         targetSdk = 35
-        versionCode = 0
+        versionCode = 1
         versionName = "1.0.0"
 
         vectorDrawables {
@@ -101,5 +101,5 @@ dependencies {
     implementation ("org.jetbrains.kotlinx:kotlinx-serialization-json-okio:1.7.3")
     implementation ("org.jetbrains.kotlinx:kotlinx-datetime:0.6.1")
     debugImplementation ("androidx.compose.ui:ui-tooling")
-    coreLibraryDesugaring ("com.android.tools:desugar_jdk_libs:2.1.3")
+    coreLibraryDesugaring ("com.android.tools:desugar_jdk_libs:2.1.4")
 }
