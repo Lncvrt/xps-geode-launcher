@@ -176,7 +176,7 @@ fun LauncherUpdateInformation(onDismiss: () -> Unit) {
 
                         IconButton(onClick = { uriHandler.openUri(nextRelease.release.htmlUrl) }) {
                             Icon(
-                                painterResource(R.drawable.geode_logo),
+                                painterResource(R.drawable.icon_link),
                                 stringResource(R.string.launcher_update_external_link)
                             )
                         }
