@@ -176,7 +176,7 @@ fun LauncherUpdateInformation(onDismiss: () -> Unit) {
 
                         IconButton(onClick = { uriHandler.openUri(nextRelease.release.htmlUrl) }) {
                             Icon(
-                                painterResource(R.drawable.icon_link),
+                                painterResource(R.drawable.xps_icon),
                                 stringResource(R.string.launcher_update_external_link)
                             )
                         }
