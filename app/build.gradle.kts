@@ -17,11 +17,11 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.geode.launcher"
+        applicationId = "com.geode.launcherXps"
         minSdk = 23
         targetSdk = 35
         versionCode = 22
-        versionName = "1.6.1"
+        versionName = "1.0.1"
 
         vectorDrawables {
             useSupportLibrary = true
